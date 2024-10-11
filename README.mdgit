@@ -1,0 +1,1 @@
+"# Investigaci-n_Divide_y_Vencer-s_JAWR"  initgit add README.mdgit commit -m "first commit"git branch -M maingit remote add origin https://github.com/jwalters63/Investigaci-n_Divide_y_Vencer-s_JAWR.gitgit push -u origin main
