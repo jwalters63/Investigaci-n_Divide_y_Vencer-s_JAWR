@@ -1,1 +1,10 @@
-"# Investigaci-n_Divide_y_Vencer-s_JAWR" 
+Investigación - Divide y vencerás
+---
+Metodología y programación estructurada
+* Nombre: Jeff Antonie Walters Rocha
+* Docente: Cesar Marin
+* CIF: 23020084
+---
+Sitios utilizados:
+* https://www.geeksforgeeks.org/binary-search/
+* 
