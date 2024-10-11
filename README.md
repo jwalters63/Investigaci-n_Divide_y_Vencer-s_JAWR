@@ -7,4 +7,4 @@ Metodología y programación estructurada
 ---
 Sitios utilizados:
 * https://www.geeksforgeeks.org/binary-search/
-* 
+* https://www.geeksforgeeks.org/quick-sort-algorithm/
