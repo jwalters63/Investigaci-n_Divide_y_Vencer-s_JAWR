@@ -1,5 +1,6 @@
-﻿// Código cortesía de https://www.geeksforgeeks.org/quick-sort/
+// Código cortesía de https://www.geeksforgeeks.org/quick-sort
 using System;
+using System.Threading;
 
 class GfG {
 
@@ -43,6 +44,9 @@ class GfG {
             // pi is the partition return index of pivot
             int pi = Partition(arr, low, high);
 
+            // Dibuja el arreglo actualizado
+            DibujarArreglo(arr);
+
             // Recursion calls for smaller elements
             // and greater or equals elements
             QuickSort(arr, low, pi - 1);
@@ -50,13 +54,20 @@ class GfG {
         }
     }
 
+    static void DibujarArreglo(int[] arr) {
+        Console.Clear();
+        for (int i = 0; i < arr.Length; i++) {
+            Console.Write(arr[i] + " ");
+        }
+        Console.WriteLine();
+        Thread.Sleep(500); // Pausa de 500 milisegundos
+    }
+
     static void Main(string[] args) {
         int[] arr = {10, 7, 8, 9, 1, 5};
         int n = arr.Length;
 
+        DibujarArreglo(arr);
         QuickSort(arr, 0, n - 1);
-        foreach (int val in arr) {
-            Console.Write(val + " "); 
-        }
     }
 }
